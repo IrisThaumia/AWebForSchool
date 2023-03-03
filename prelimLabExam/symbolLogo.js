@@ -26,8 +26,9 @@ if (canvas.getContext) {
     ctx.lineTo(95,279);
     ctx.moveTo(69,279);
     ctx.lineTo(70,310);
-    ctx.stroke();
 
+    ctx.stroke();
+    //Black outline and white fill box
     ctx.strokeStyle = "#000000";
     ctx.fillStyle = "#ffffff";
     ctx.lineCap = "butt";
@@ -37,12 +38,13 @@ if (canvas.getContext) {
     ctx.rect(280, 170, 170, 120);
     ctx.stroke();
     ctx.fill();
+    //Black Box inside
     ctx.fillStyle = "#000000";
     ctx.fillRect(293,180, 80, 95);
 
+    //For 7
     ctx.strokeStyle = "#ffffff";
     ctx.lineWidth = 20;
-    
     ctx.beginPath();
     ctx.moveTo(300,200);
     ctx.lineTo(365,200);
@@ -53,6 +55,7 @@ if (canvas.getContext) {
     ctx.lineTo(340,235);
     ctx.stroke();
 
+    //For z
     ctx.strokeStyle = "#000000";
     ctx.lineWidth = 14;
     ctx.lineJoin = "mitel";
