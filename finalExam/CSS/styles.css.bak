@@ -1,0 +1,12 @@
+#canvas1
+{
+	background: #f0f0f0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 20px;
+}
+
